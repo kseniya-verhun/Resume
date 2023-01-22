@@ -14,12 +14,12 @@ a.nav-link {
     opacity: 0.7;
 }
 
-li.home a {
-    margin-left: 645px;
-}
-
 .nav-item {
     margin-right: 3%;
+}
+
+li.home a {
+    margin-left: 645px;
 }
 
 .nav-link:hover, li.active a {
@@ -28,7 +28,6 @@ li.home a {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -51,10 +50,19 @@ h2 {
     font-size: 64px;
 }
 
+h3 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
 p {
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
+}
+
+p.caption {
+    font-size: 14px;
 }
 
 .hero {
@@ -193,3 +201,10 @@ footer {
         text-align: center;
     }
 }
+
+@media (max-width: 900px) {
+    li.home a {
+        margin-left: 0;
+    }
+}
+
