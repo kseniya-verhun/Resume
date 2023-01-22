@@ -27,10 +27,7 @@ li.home a {
 }
 
 h1,
-h2,
-h4,
-h5,
-h6 {
+h2 {
     color: black;
     font-family: var(--heading-font-family);
     font-weight: bold;
@@ -85,22 +82,22 @@ p.caption {
     font-weight: 400;
 }
 
-.about-section {
-    padding: 160px 20px;
+.section {
+    padding: 80px 20px;
 }
 
-.about-section h1 {
+.section h1 {
     line-height: 80px;
     font-size: 64px;
 }
 
-.about-section h2 {
+.section h2 {
     font-size: 18px;
     font-family: var(--default-font-family);
     font-weight: 700;
 }
 
-.about-section-content {
+.section-content {
     margin: 30px;
 }
 
@@ -130,7 +127,7 @@ p.caption {
     padding: 120px 60px;
 }
 
-h4 {
+h3.footer {
     font-weight: 700;
     font-size: 48px;
     line-height: 85px;
@@ -181,6 +178,7 @@ footer {
     h1 {
         font-size: 44px;
         line-height: 60px;
+        text-align: center;
     }
     .project-description {
         padding: 0;
@@ -197,8 +195,8 @@ footer {
         text-align: center;
         padding: 0;
     }
-    h1.contact {
-        text-align: center;
+    .about-section h1 {
+        font-size: 44px;
     }
 }
 
